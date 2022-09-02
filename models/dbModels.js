@@ -1,7 +1,7 @@
 // Feature edit : maybe
 // 1. plugin
 // 2. id from String to Number
-// 3. comment as subducoment instead of nested
+// 3. comment as subdocument instead of nested
 
 require('dotenv').config({
   path: '../.env'
@@ -93,10 +93,11 @@ const userSchema = new mongoose.Schema({
 
 //  MODELS
 const Converation = new mongoose.model('converation', conversationSchema);
+const To_remember = new mongoose.model('to_remember', to_rememberSchmea);
 const Post = new mongoose.model('post', postSchema);
 const User = new mongoose.model('user', userSchema);
 
 
 
 // Export
-module.exports = {Converation, Post, User};
+module.exports = {Converation, Post, To_remember, User};
