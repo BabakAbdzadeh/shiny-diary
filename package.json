@@ -1,0 +1,14 @@
+{
+  "name": "shinydiary",
+  "version": "1.0.0",
+  "description": "Personal porfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Babak Abdolah Zadeh",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.5.4"
+  }
+}
