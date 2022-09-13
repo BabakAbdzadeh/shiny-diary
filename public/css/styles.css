@@ -1,0 +1,29 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F5F9FC;
+}
+input{
+  color: #F5F9FC;
+}
+.log-in-container{
+  background-color: #0E1525;
+  padding: 5%;
+}
+
+.form-from-bsp{
+  padding: 5%;
+  height: max-content;
+
+}
+
+.full-width{
+  width: 100%;
+}
+
+/* ----------- GOOGLE btn source -------------------- */
