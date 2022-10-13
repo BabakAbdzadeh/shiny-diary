@@ -11,6 +11,9 @@ body{
 input{
   color: #F5F9FC;
 }
+input[type=text]{
+  color: #F5F9FC;
+}
 .log-in-container{
   background-color: #0E1525;
   padding: 5%;
@@ -21,17 +24,15 @@ input{
   height: max-content;
 
 }
+form
 
 .full-width{
   width: 100%;
 }
 
-/* ----------- GOOGLE btn source -------------------- */
+
 
 
 
 
 /*  Editing bootstap */
-.form-control{
-  color: #F5F9FC;
-}

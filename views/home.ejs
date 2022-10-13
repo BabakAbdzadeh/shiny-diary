@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Shiny Diaries</title>
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/css/application.css">
+
+
+</head>
+
+
+<body>
+
+  <div class="grid-container">
+    <div class="header">
+
+
+      <nav class="navbar navbar-light search-bar navbar-edit" style="background-color: #e3f2fd;">
+        <button type="button" class="btn btn-outline-primary top-stories-btn">Top Stories</button>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+
+    </div>
+
+    <div class="left" style="background-color:#aaa;">
+      Column
+      <a class="btn btn-primary left-nav" href="/home" role="button">Home</a>
+      <a class="btn btn-primary left-nav" href="/profile" role="button">Profile</a>
+      <a class="btn btn-primary left-nav" href="#" role="button">Nofitication</a>
+      <a class="btn btn-primary left-nav" href="#" role="button">Message</a>
+      <a class="btn btn-primary left-nav" href="#" role="button">Bookmake</a>
+      <a class="btn btn-primary left-nav" href="#" role="button">New Story</a>
+
+    </div>
+
+
+    <div class="middle" style="background-color:#bbb;">
+      Middle
+    </div>
+
+
+    <div class="right" style="background-color:#ccc;">
+      Column
+    </div>
+
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </div>
+
+
+
+
+  <%- include('partials/footer'); %>
