@@ -39,6 +39,9 @@ const db = require(rootPath + "models/dbModels.js");
 const User = db.User;
 
 //  -------------- service-----------------------
+
+var authFlag = false;
+
 login.get('/', (req,res)=>{
   res.render('login');
 
@@ -73,19 +76,6 @@ login.get('/', (req,res)=>{
       })
     }
   })
-})
-.get('/home', (req,res)=>{
-  if(req.isAuthenticated()){
-    // ----------- TEST -----------
-    console.log('authenticated');
-    // ---------------------------
-    res.render('auth-page-test');
-  }else{
-    // ----------- TEST -----------
-    console.log(" not authenticated");
-    // ---------------------------
-    res.redirect('/');
-  }
 });
 
 //  -------------- export ----------------------
